@@ -56,9 +56,9 @@ Given an injection of a previously undocumented malware/exploit into a test netw
 
 | Layer | Technology | Purpose |
 |---|---|---|
-| Language / Runtime | Java 21 (Virtual Threads / Project Loom) | Massive concurrent agent instantiation without OS thread exhaustion |
-| Application Framework | Spring Boot 3.x, Spring Cloud Stream | Service orchestration, async event-driven messaging |
-| Agent / LLM Framework | LangChain4j, Spring AI | Agent tools, memory stores, LLM abstraction (local via Ollama/vLLM or remote) |
+| Language / Runtime | Java 25 (LTS, Virtual Threads / AOT Cache) | Massive concurrent agent instantiation without OS thread exhaustion; faster cold start via AOT cache |
+| Application Framework | Spring Boot 4.1.0, Spring Cloud Stream | Service orchestration, async event-driven messaging |
+| Agent / LLM Framework | LangChain4j 1.12.1, Spring AI | Agent tools, memory stores, LLM abstraction (local via Ollama/vLLM or remote) |
 | Packet Capture | Pcap4j | Deep packet inspection (L2–L4) |
 | Kernel Telemetry | Java FFM API (Project Panama) over libbpf (eBPF) | Native syscall / kernel event capture without classic JNI overhead |
 | Signature Matching | YARA4J | Pattern/payload detection bindings |
