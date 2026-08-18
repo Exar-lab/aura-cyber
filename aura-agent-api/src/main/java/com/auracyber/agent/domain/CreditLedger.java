@@ -6,6 +6,9 @@ package com.auracyber.agent.domain;
  */
 public interface CreditLedger {
 
+	/** Onboards an agent with its starting balance. No-op if the agent is already open. */
+	void open(AgentId agentId, long initialBalance);
+
 	long balanceOf(AgentId agentId);
 
 	/**

@@ -74,6 +74,7 @@ Given an injection of a previously undocumented malware/exploit into a test netw
 
 ```
 aura-cyber/
+├── aura-agent-api/         # Framework-free domain contract: Agent lifecycle, CreditLedger port
 ├── aura-telemetry/         # Pcap4j + eBPF FFM integration
 ├── aura-memory-graph/      # Spring Data Neo4j + Qdrant Java SDK
 ├── aura-agent-core/        # LangChain4j / Spring AI agents (Sentinel, Synthesizer, Immunizer, Red Team)

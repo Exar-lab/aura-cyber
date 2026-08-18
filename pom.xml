@@ -31,6 +31,7 @@
 	</properties>
 
 	<modules>
+		<module>aura-agent-api</module>
 		<module>aura-telemetry</module>
 		<module>aura-memory-graph</module>
 		<module>aura-agent-core</module>

@@ -9,22 +9,12 @@
 		<version>0.1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>aura-cce-engine</artifactId>
+	<artifactId>aura-agent-api</artifactId>
 	<packaging>jar</packaging>
-	<name>AURA Compute Credit Engine</name>
-	<description>Compute Credit Economy: in-memory grid for agent credit balances, fitness scores and mutation state via Hazelcast</description>
+	<name>AURA Agent API</name>
+	<description>Framework-free domain contract shared by every swarm role and by the CCE: Agent lifecycle, CreditLedger port, and value objects</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.auracyber</groupId>
-			<artifactId>aura-agent-api</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast</artifactId>
-			<version>${hazelcast.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
