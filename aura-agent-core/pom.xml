@@ -27,8 +27,8 @@
 		</dependency>
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
-			<artifactId>langchain4j-spring-boot-starter</artifactId>
-			<version>${langchain4j.version}</version>
+			<artifactId>langchain4j-spring-boot4-starter</artifactId>
+			<version>${langchain4j-spring-boot4-starter.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
