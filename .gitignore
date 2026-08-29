@@ -4,3 +4,10 @@ target/
 .idea/
 *.iml
 .vscode/
+
+# Locally installed agent skills (vendored third-party content) and
+# machine-local skill registry cache — regenerate with `npx skills add`
+# and `gentle-ai skill-registry refresh` respectively.
+.claude/skills/
+.agents/
+.atl/

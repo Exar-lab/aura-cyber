@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "skills": {
+    "java-coding-standards": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "autoskills-registry",
+      "computedHash": "1c417544249186f66c1110e7812e5bee4402ae5012442847b287b4d6e6dd9c55"
+    },
+    "java-docs": {
+      "source": "github/awesome-copilot",
+      "sourceType": "autoskills-registry",
+      "computedHash": "966d266801cce0b8d9039cb77a85249e8f318148be5ae5cbac09e45175b7fe5e"
+    },
+    "java-junit": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/java-junit/SKILL.md",
+      "computedHash": "fbf3cb0d47ffb44bdb6e1ebcc4d89dd7083208efdfc5b88f316c8bc2b58250b5"
+    },
+    "java-maven": {
+      "source": "pluginagentmarketplace/custom-plugin-java",
+      "sourceType": "github",
+      "skillPath": "skills/java-maven/SKILL.md",
+      "computedHash": "7128cd4b59cc52c661a6a209af74063e1fc6523b70abaf19f28c885ed085c01b"
+    },
+    "java-springboot": {
+      "source": "github/awesome-copilot",
+      "sourceType": "autoskills-registry",
+      "computedHash": "0947c4f2c304d6897abc063e3ad53dc5a0ba4525d12fa5019a39b8ec5e31d8d5"
+    },
+    "langchain4j-tool-function-calling-patterns": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-kit-java/skills/langchain4j-tool-function-calling-patterns/SKILL.md",
+      "computedHash": "9e73f8ee75601f551d8fb4873fce2dc6cecdae1eca008311700451158f7763c9"
+    },
+    "neo4j-cypher-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-cypher-skill/SKILL.md",
+      "computedHash": "4961427fe80ebe1acf42c77e885b0ebd761e2a53277f9afea8fe3fd7550fba64"
+    },
+    "neo4j-modeling-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-modeling-skill/SKILL.md",
+      "computedHash": "07de38dd3ef9cbf49afcc16f56eb33f767c934251c343330ee7ef832e7fe4ed2"
+    },
+    "neo4j-spring-data-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-spring-data-skill/SKILL.md",
+      "computedHash": "4388d2e4049309b80a4a8f37b85a581b40fd48de49706da509f9ff1ca1bae5f5"
+    },
+    "spring-boot-event-driven-patterns": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-kit-java/skills/spring-boot-event-driven-patterns/SKILL.md",
+      "computedHash": "1741fc29e31a24e436754c10a3fe4029674a90641655c12c5913888399a31991"
+    },
+    "spring-boot-test-patterns": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-kit-java/skills/spring-boot-test-patterns/SKILL.md",
+      "computedHash": "64bad0e697b4390e9835637d16b0d4e81600d8f186c2ceb7c95cef86c23d9b22"
+    }
+  }
+}
