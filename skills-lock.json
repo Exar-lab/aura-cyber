@@ -1,6 +1,18 @@
 {
   "version": 1,
   "skills": {
+    "314-frameworks-spring-kafka": {
+      "source": "jabrena/plinth",
+      "sourceType": "github",
+      "skillPath": "skills/314-frameworks-spring-kafka/SKILL.md",
+      "computedHash": "5367cd6f92d96610d7a95093ddcb40c74330a2c6031ebe5316ae833fe819229c"
+    },
+    "hexagonal-architecture-layers-java": {
+      "source": "gentleman-programming/gentleman-skills",
+      "sourceType": "github",
+      "skillPath": "community/hexagonal-architecture-layers-java/SKILL.md",
+      "computedHash": "557cfb0354236012434516f83cab5f61543837cebcb7b59060ca950ff536d74f"
+    },
     "java-coding-standards": {
       "source": "affaan-m/everything-claude-code",
       "sourceType": "autoskills-registry",
@@ -34,11 +46,23 @@
       "skillPath": "plugins/developer-kit-java/skills/langchain4j-tool-function-calling-patterns/SKILL.md",
       "computedHash": "9e73f8ee75601f551d8fb4873fce2dc6cecdae1eca008311700451158f7763c9"
     },
+    "multi-stage-dockerfile": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/multi-stage-dockerfile/SKILL.md",
+      "computedHash": "698bf93a84dae18fd7bd0b1d35c21427307fde78fbdf4624be9726f5f98189ca"
+    },
     "neo4j-cypher-skill": {
       "source": "neo4j-contrib/neo4j-skills",
       "sourceType": "github",
       "skillPath": "neo4j-cypher-skill/SKILL.md",
       "computedHash": "4961427fe80ebe1acf42c77e885b0ebd761e2a53277f9afea8fe3fd7550fba64"
+    },
+    "neo4j-driver-java-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-driver-java-skill/SKILL.md",
+      "computedHash": "c6f42198ad172b62087e4925a501448af6645a8f1483ab18884c4b05376734a2"
     },
     "neo4j-modeling-skill": {
       "source": "neo4j-contrib/neo4j-skills",
@@ -51,6 +75,12 @@
       "sourceType": "github",
       "skillPath": "neo4j-spring-data-skill/SKILL.md",
       "computedHash": "4388d2e4049309b80a4a8f37b85a581b40fd48de49706da509f9ff1ca1bae5f5"
+    },
+    "security-review": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/security-review/SKILL.md",
+      "computedHash": "9b1791054c648b84ca424fc1342dede2e04759dc73436bb91d21675d5a4c13ea"
     },
     "spring-boot-event-driven-patterns": {
       "source": "giuseppe-trisciuoglio/developer-kit",
