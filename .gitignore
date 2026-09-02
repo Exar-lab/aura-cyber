@@ -10,4 +10,6 @@ target/
 # and `gentle-ai skill-registry refresh` respectively.
 .claude/skills/
 .agents/
+.kiro/skills/
+agent/skills/
 .atl/
