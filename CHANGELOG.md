@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/Exar-lab/aura-cyber/compare/aura-cyber-v0.2.0...aura-cyber-v0.3.0) (2026-09-03)
+
+
+### Features
+
+* **telemetry:** add Pcap4j and FFM/libbpf telemetry ingestion ([4b64e1e](https://github.com/Exar-lab/aura-cyber/commit/4b64e1eaeaec4d378d83e85fd7e23e7f8fd50322))
+* **telemetry:** add Pcap4j and FFM/libbpf telemetry ingestion ([b9ada60](https://github.com/Exar-lab/aura-cyber/commit/b9ada60548c286a99deadcf478fe1dce847cd880)), closes [#8](https://github.com/Exar-lab/aura-cyber/issues/8)
+
 ## [0.2.0](https://github.com/Exar-lab/aura-cyber/compare/aura-cyber-v0.1.0...aura-cyber-v0.2.0) (2026-08-25)
 
 
