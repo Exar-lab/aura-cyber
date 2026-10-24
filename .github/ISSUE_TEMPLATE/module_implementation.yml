@@ -1,0 +1,48 @@
+name: Module Implementation
+description: Scope a feature or module of work described in README.md / CLAUDE.md
+title: "<module>: <short summary>"
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to scope work on a specific AURA-Cyber module (see the
+        module layout in `CLAUDE.md`). Keep it aligned with hexagonal boundaries:
+        domain ports in `aura-agent-api`, adapters in infrastructure modules.
+  - type: input
+    id: module
+    attributes:
+      label: Module
+      description: Which module does this touch?
+      placeholder: aura-telemetry
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What is this issue trying to achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Bullet the concrete deliverables.
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this issue explicitly does not cover (tracked elsewhere).
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Links to README.md/CLAUDE.md sections, related issues, or external docs.
+    validations:
+      required: false
