@@ -23,6 +23,22 @@
 			<artifactId>client</artifactId>
 			<version>${qdrant.version}</version>
 		</dependency>
+		<!-- io.qdrant:client publishes its gRPC/protobuf/Guava API types as runtime-scoped,
+		     yet exposes them in its public signatures (ListenableFuture, generated messages). -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-inprocess</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.testcontainers</groupId>
 			<artifactId>neo4j</artifactId>
