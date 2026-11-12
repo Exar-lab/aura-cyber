@@ -27,7 +27,7 @@
 		<qdrant.version>1.13.0</qdrant.version>
 		<guava.version>33.5.0-jre</guava.version>
 		<hazelcast.version>5.5.0</hazelcast.version>
-		<testcontainers.version>1.20.4</testcontainers.version>
+		<testcontainers.version>1.21.3</testcontainers.version>
 		<archunit.version>1.4.1</archunit.version>
 	</properties>
 
